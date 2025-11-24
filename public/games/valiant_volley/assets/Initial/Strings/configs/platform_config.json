@@ -1,0 +1,19 @@
+{
+    "platform":{
+        "left":{
+            "lower": "platform_floating_vertical_left_lower",
+            "mid": "platform_floating_vertical_left_mid",
+            "upper": "platform_floating_vertical_left_upper"
+        },
+        "right":{
+            "lower": "platform_floating_vertical_right_lower",
+            "mid": "platform_floating_vertical_right_mid",
+            "upper": "platform_floating_vertical_right_upper"
+        },
+        "center":{
+            "lower": "platform_floating_vertical_center_lower",
+            "mid": "platform_floating_vertical_center_mid",
+            "upper": "platform_floating_vertical_center_upper"
+        }
+    }
+}

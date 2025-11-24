@@ -1,0 +1,44 @@
+{
+	"PrizesInfo": [
+		{
+			"id": 0,
+			"title": "Nice Try!",
+			"description_title": "Try again later.",
+			"description": "Keep trying to play again and get\n another chance to win cool prizes!",
+			"chance": 70
+		},
+		{
+			"id": 1,
+			"prize_name": "Shein Voucher 18% Off",
+			"prize_type": "Minor",
+			"title": "Congratulations!",
+			"description": "Shein Voucher that you can use whenever you purchase selected Items in the Shein app!",
+			"image_link": "assets/Initial/UI/PrizePage/Shein_Voucher.png",
+			"redirect_url": "http://google.com",
+			"chance": 50
+		},
+		{
+			"id": 2,
+			"prize_name": "Jolly Meal",
+			"prize_type": "Minor",
+			"title": "Congratulations!",
+			"description": "Jolly meal that you can redeem in any Jollibee Stores!",
+			"image_link": "assets/Initial/UI/PrizePage/Jolly_Meal.png",
+			"redirect_url": "http://google.com",
+			"chance": 50
+		},
+		{
+			"id": 2,
+			"prize_name": "Iphone 17 Promax",
+			"prize_type": "Minor",
+			"title": "Congratulations!",
+			"description": "You have won the grand prize! Congrats on your Iphone 17 Promax!",
+			"image_link": "assets/Initial/UI/PrizePage/Iphone17_Promax.png",
+			"redirect_url": "http://google.com",
+			"chance": 20
+		}
+	],
+	"MenuText": {
+		"MysteryBoxText": " Tap the mystery box or click the \nbutton below to get a chance to \nwin a prize!"
+	}
+}

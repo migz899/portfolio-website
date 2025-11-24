@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('/src/fonts/RobotoMono/RobotoMono-Medium.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('/src/fonts/RobotoMono/RobotoMono-Regular.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('/src/fonts/RobotoMono/RobotoMono-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('/src/fonts/RobotoMono/RobotoMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/fonts/Inter/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Jersey25';
+  src: url('/src/fonts/Jersey25/Jersey25-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+#root {
+  max-width: "100%";
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

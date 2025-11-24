@@ -1,0 +1,21 @@
+.greeting-container {
+    background-color: #121e28;
+    padding: 6rem;
+    display: flex;
+
+    .greeting-div {
+        background-color: #cb4141;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        border-radius: 20px;
+    }
+
+    .greeting {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5rem;
+        color: #d3d3d3;
+        text-align: center;
+
+    }
+}

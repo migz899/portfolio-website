@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "digi_static",
+			"format": "RGBA8888",
+			"size": {
+				"w": 954,
+				"h": 809
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Dive_Front.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 356,
+						"h": 493
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 356,
+						"h": 492
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 356,
+						"h": 492
+					}
+				},
+				{
+					"filename": "Dive_Back.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 318,
+						"h": 433
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 318,
+						"h": 432
+					},
+					"frame": {
+						"x": 356,
+						"y": 0,
+						"w": 318,
+						"h": 432
+					}
+				},
+				{
+					"filename": "player.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 59,
+						"w": 410,
+						"h": 350
+					},
+					"frame": {
+						"x": 356,
+						"y": 432,
+						"w": 410,
+						"h": 350
+					}
+				},
+				{
+					"filename": "Dive_Side_R.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 280,
+						"h": 324
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 280,
+						"h": 324
+					},
+					"frame": {
+						"x": 674,
+						"y": 0,
+						"w": 280,
+						"h": 324
+					}
+				},
+				{
+					"filename": "Dive_Side_L.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 275,
+						"h": 318
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 274,
+						"h": 317
+					},
+					"frame": {
+						"x": 0,
+						"y": 492,
+						"w": 274,
+						"h": 317
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

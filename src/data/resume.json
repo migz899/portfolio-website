@@ -1,0 +1,31 @@
+{
+  "sections": [
+    {
+      "title": "Education",
+      "entries": [
+        {
+          "title": "Bachelor of Science in Information Technology",
+          "company": "FEU Institute of Technology",
+          "dates": "2018 - 2024"
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "entries": [
+        {
+          "title": "Front-End & Game Developer",
+          "company": "Taktyl Studios",
+          "dates": "2023 - Present",
+          "bulletPoints": [
+            "Developed multiple HTML5 games Internal and Client Projects",
+            "Built prototypes and researched new tech as part of the R&D team",
+            "Trained, Supervised and Manage interns and developers",
+            "Participated in client meetings for project requirements and updates",
+            "Unit Lead for Leaderbored.gg Project"
+          ]
+        }
+      ]
+    }
+  ]
+}

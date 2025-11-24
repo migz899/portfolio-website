@@ -1,0 +1,20 @@
+{
+    "Errors":[
+		{
+			"error":"User is not eligible to play",
+			"displayText": "You are not eligible to play"
+		},
+		{
+			"error":"Please provide a PID",
+			"displayText": "PID not recognized"
+		},
+		{
+			"error":"User has already played today! ",
+			"displayText": "You have used up your chances \n for today"
+		},
+		{
+			"error":"Campaign period has not started or has ended",
+			"displayText": "The campaign has ended"
+		}
+	]
+}

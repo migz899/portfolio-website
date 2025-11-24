@@ -1,0 +1,187 @@
+{
+	"textures": [
+		{
+			"image": "boot_sprite",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1930,
+				"h": 1924
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bg_sky_blue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1080,
+						"h": 1920
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1080,
+						"h": 1920
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 1080,
+						"h": 1920
+					}
+				},
+				{
+					"filename": "cloud_set_big.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 864,
+						"h": 308
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 12,
+						"w": 842,
+						"h": 290
+					},
+					"frame": {
+						"x": 1086,
+						"y": 2,
+						"w": 842,
+						"h": 290
+					}
+				},
+				{
+					"filename": "cloud_set_small.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 864,
+						"h": 308
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 19,
+						"w": 804,
+						"h": 247
+					},
+					"frame": {
+						"x": 1086,
+						"y": 296,
+						"w": 804,
+						"h": 247
+					}
+				},
+				{
+					"filename": "ctn_loading_outer.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 403,
+						"h": 11
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 403,
+						"h": 11
+					},
+					"frame": {
+						"x": 1086,
+						"y": 547,
+						"w": 403,
+						"h": 11
+					}
+				},
+				{
+					"filename": "ctn_loading_fill.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 397,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 397,
+						"h": 5
+					},
+					"frame": {
+						"x": 1493,
+						"y": 547,
+						"w": 397,
+						"h": 5
+					}
+				},
+				{
+					"filename": "logo_leaderbored_text.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 261,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 261,
+						"h": 121
+					},
+					"frame": {
+						"x": 1493,
+						"y": 556,
+						"w": 261,
+						"h": 121
+					}
+				},
+				{
+					"filename": "logo_leaderbored_dj.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 129,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 129,
+						"h": 96
+					},
+					"frame": {
+						"x": 1758,
+						"y": 556,
+						"w": 129,
+						"h": 96
+					}
+				},
+				{
+					"filename": "loading_text.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 114,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 111,
+						"h": 33
+					},
+					"frame": {
+						"x": 1758,
+						"y": 656,
+						"w": 111,
+						"h": 33
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}
