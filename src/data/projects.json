@@ -1,0 +1,125 @@
+{
+  "projects": [
+    {
+      "id": "leaderbored-gg",
+      "title": "Leaderbored.gg",
+      "description": "Leaderbored.gg is a browser-based platform that hosts a collection of fast and lightweight HTML5 hyper-casual games where I was developing multiple games for the platform while leading and supporting the team producing new games",
+      "featured": true,
+      "category": "big",
+      "technologies": {
+        "languages": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "TypeScript"
+        ],
+        "frameworks": [
+          "Node.js"
+        ],
+        "libraries": [
+          "Phaser 3"
+        ]
+      },
+      "tags": [],
+      "links": {
+        "github": "https://leaderbored.gg/",
+        "demo": "https://leaderbored.gg/"
+      }
+    },
+    {
+      "id": "portfolio",
+      "title": "Portfolio",
+      "description": "Built in React, this portfolio website is built to last and showcase my best work and skills. Thanks for checking it out!",
+      "image": "portfolio.gif",
+      "featured": true,
+      "category": "small",
+      "technologies": {
+        "languages": [
+          "JavaScript"
+        ],
+        "frameworks": [
+          "React",
+          "SCSS"
+        ],
+        "libraries": []
+      },
+      "tags": [],
+      "links": {
+        "github": "google.com",
+        "demo": null
+      }
+    },
+    {
+      "id": "itch.io",
+      "title": "Itch.io Personal Games",
+      "description": "A collection of games iploaded to itch.io developed during my university studies and my early journey in this field.",
+      "image": "itch.io.gif",
+      "featured": true,
+      "category": "small",
+      "technologies": {
+        "languages": [
+          "C#",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "frameworks": [],
+        "libraries": [
+          "Phaser 3"
+        ]
+      },
+      "tags": [],
+      "links": {
+        "github": "google.com",
+        "demo": "https://ignismc.itch.io/"
+      }
+    }
+  ],
+  "playable": [
+    {
+      "key": "valiant_volley",
+      "name": "Valiant Volley",
+      "tags": {
+        "features": {
+          "languages": [
+            "Javascript",
+            "TypeScript"
+          ],
+          "frameworks": [
+            "Game"
+          ],
+          "libraries": [
+            "Phaser 3"
+          ]
+        }
+      },
+      "source": "games/valiant_volley/index.html",
+      "width": "360px",
+      "height": "660px",
+      "thumbnail": "../src/assets/projects/thumbnails/valiantvolley.webp"
+    },
+    {
+      "key": "mystery_box",
+      "name": "Mystery Box",
+      "tags": {
+        "features": {
+          "languages": [
+            "Javascript",
+            "TypeScript"
+          ],
+          "frameworks": [
+            "Gacha",
+            "Persistence",
+            "Data-Driven"
+          ],
+          "libraries": [
+            "Phaser 3"
+          ]
+        }
+      },
+      "source": "games/mystery_box/index.html",
+      "width": "360px",
+      "height": "660px",
+      "thumbnail": "../src/assets/projects/thumbnails/mysterybox.webp"
+    }
+  ]
+}
