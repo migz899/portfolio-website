@@ -1,0 +1,18 @@
+{
+    "localization": {
+        "changeLocalize": {
+            "text": "Balik sa Ingles",
+            "font": "dejavu",
+            "size": 32,
+            "color": "0xFFFFFF",
+            "align": 1
+        },
+        "random": {
+            "text": "Ito ay isang text.",
+            "font": "dejavu",
+            "size": 32,
+            "color": "0x000000",
+            "align": 1
+        }
+    }
+}

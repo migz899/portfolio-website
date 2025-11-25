@@ -1,0 +1,268 @@
+<!doctype html><html lang="en"><head><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Mystery Box</title><link rel="stylesheet" href="style.css"/><script src="lib/phaser.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><style></style></head><body><div id="content"></div><div id="history"><div class="view"><div id="toggleHistoryOff" class="close-button">X</div><h1 id="prize-title">Prize History</h1><div id="history-list"><div class="box"><div class="box-info"><div>You haven't won any prizes yet</div></div></div></div></div></div><div id="prizes"><div class="view"><div id="togglePrizeOff" class="close-button">X</div><h1 id="prize-title">Prizes</h1><div id="prize-list"></div><div id="mechanics"></div></div></div><div id="overlay"><div></div></div></body><script src="app.js?t=34773"></script><script>(function (exports) {
+    const baseURL = "";
+
+    var parseCssRules = function (cssText) {
+      var tokenizer =
+        /\s*([a-z\-]+)\s*:\s*((?:[^;]*url\(.*?\)[^;]*|[^;]*)*)\s*(?:;|$)/gi,
+        obj = {},
+        token;
+      while ((token = tokenizer.exec(cssText))) {
+        obj[token[1].toLowerCase()] = token[2];
+      }
+      return obj;
+    };
+
+    let playerID = 0;
+
+    const searchParams = new URLSearchParams(window.location.search);
+
+
+    document.getElementById("overlay").style.display = "none";
+
+    var historyPage = document.getElementById("history");
+    var prizesPage = document.getElementById("prizes");
+    var mechanicsPage = document.getElementById("mechanics");
+    //button listener
+
+    function claim(url) {
+      window.location = url;
+      setTimeout(() => {
+        try {
+          window.location = url;
+        } catch (e) {
+          console.log(e);
+        }
+      }, 100);
+    }
+
+    function getHistory() {
+      if (!playerID || playerID === 0) {
+        const prizeData = JSON.parse(localStorage.getItem("prizeList") || "null");
+        renderHistory(prizeData);
+      }
+    }
+
+    function renderHistory(result) {
+      if (!result || result.length === 0) {
+        document.getElementById("history-list").innerHTML = `
+    <div class="prize-card-no-prize">
+      <img class="no-prize-image" src="assets/Initial/UI/PrizeHistory/no_prizes.png" />
+    </div>`;
+      }
+
+      else {
+
+        let hContent = "";
+        result.forEach((h) => {
+          //const claimButton = !h.prize.isClaimed
+          const claimButton = false
+            ? `
+<a href="${h.redirect_url}" target="_blank" class="claim-button">
+  <img src="./assets/Initial/UI/PrizeHistory/btn_claim_history.png" alt="Claim" class="claim-img">
+</a>
+    `
+            : "";
+
+          hContent += `
+      <div class="prize-card">
+        <div class="prize-card-bg">
+          <div class="prize-card-content">
+            <div class="prize-card-image">
+              <img src="${h.image_link}">
+            </div>
+            <div class="prize-card-text">
+              <div class="prize-card-header">
+                <div class="prize-card-title">${h.prize_name}</div>
+                ${claimButton}
+              </div>
+              <a href=${h.redirect_url} target="_blank" class="prize-card-link">
+                Earned ${h.wonAt}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+        });
+
+        if (result.length > 0) {
+          document.getElementById("history-list").innerHTML = hContent;
+        }
+      }
+      document.getElementById("history").style.display = "block";
+    }
+
+    async function getPrizes() {
+      let updatedPrizes;
+
+      await fetch('assets/Initial/PrizesString/Prizes.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (data && Object.keys(data).length > 0) {
+            updatedPrizes = data.PrizesInfo.slice(1);
+          } else {
+            console.log('JSON is empty');
+          }
+        })
+        .catch(error => {
+          console.error('Error loading JSON:', error);
+        });
+
+      renderPrizes(updatedPrizes);
+    }
+
+    function renderPrizes(result) {
+      const prizeList = document.getElementById("prize-list");
+
+      if (!result || result.length === 0) {
+        prizeList.innerHTML = `
+      <div class="available-prize-card-no-prize">
+        <div class="available-prize-card-text">
+          <img class="no-prize-image" src="assets/Initial/UI/PrizeHistory/no_prizes.png" />
+          <p>No available prizes at the moment.</p>
+        </div>
+      </div>
+    `;
+      } else {
+        let pContent = "";
+        result.forEach((p, index) => {
+          pContent += `
+        <div class="available-prize-card" data-index="${index}">
+          <div class="available-prize-card-bg">
+            <div class="available-prize-card-content">
+              <div class="available-prize-card-image">
+                <img src="${p.image_link}" />
+              </div>
+              <div class="available-prize-card-text">
+                <div class="available-prize-card-label">${p.prize_type} Prize</div>
+                <div class="available-prize-card-title">${p.prize_name}</div>
+                <div class="available-prize-card-description">
+                  ${p.description}
+                </div>
+                <div 
+                  class="available-prize-card-link" 
+                  data-url="${p.redirect_url}">
+                  <img src="./assets/Initial/UI/PrizePage/arrow_learn_more.png" 
+                       alt="arrow" 
+                       class="learn-more-img">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+        });
+
+        prizeList.innerHTML = pContent;
+      }
+
+      document.getElementById("prizes").style.display = "block";
+
+      // ✅ Delegate click handling
+      prizeList.addEventListener("click", (e) => {
+        const linkEl = e.target.closest(".available-prize-card-link");
+        if (linkEl) {
+          e.preventDefault();
+          const url = linkEl.getAttribute("data-url");
+          //console.log("Prize link clicked:", url);
+
+          if (window.menuScene && typeof window.menuScene.openPrize === "function") {
+            window.menuScene.openPrize(url); // pass URL into Phaser if needed
+          } else {
+            //console.warn("menuScene not ready yet");
+          }
+          window.open(url, "_blank");
+        }
+      });
+    }
+    setTimeout(updateView, 1000);
+
+    //listen for resize event
+    addEventListener("resize", (event) => { });
+
+    onresize = updateView;
+
+    function updateView(event) {
+      const c = document.getElementsByTagName("canvas");
+      if (c) {
+        let gameCSS = parseCssRules(c[0].style.cssText);
+
+        const views = document.getElementsByClassName("overlay-view");
+
+        [...document.querySelectorAll(".view")].forEach(function (view) {
+          view.style.width = gameCSS["width"];
+          view.style.marginLeft = gameCSS["margin-left"];
+        });
+      }
+    }
+
+    function gEvent(event_name, event_value) {
+      //console.log("Called event:", event_name, event_value);
+
+      switch (event_name) {
+        case "user_played":
+          break;
+        case "user_won_prize":
+          //event_value = prize_name
+          break;
+        case "prize_awarded":
+          //event_value = prize_name
+          break;
+      }
+    }
+
+    // window.testLoad = testLoad;
+    window.gEvent = gEvent;
+    window.getHistory = getHistory;
+    window.claim = claim;
+    window.getPrizes = getPrizes;
+    window.callEligibility = callEligibility;
+    window.logDebugSizes = logDebugSizes;
+    window.handlerRedirection = handlerRedirection;
+
+    let eligibilityData = {};
+
+    window.addEventListener("message", (event) => {
+      if (!event.data || typeof event.data !== "object") return;
+      if (event.data.type === "eligibility") {
+        eligibilityData = event;
+
+        const eligibilityReadyEvent = new CustomEvent("eligibilityReady", { detail: event.data });
+        window.dispatchEvent(eligibilityReadyEvent);
+      }
+    });
+
+    function callEligibility() {
+      return eligibilityData.data
+    }
+
+    function handlerRedirection(p_link) {
+      window.parent.postMessage(
+        { type: 'web-redirection', link: p_link },
+        window.location.origin
+      );
+    }
+
+    function logDebugSizes(p_gamewidth, p_gameHeight) {
+      const prizes = document.getElementById("prizes");
+      if (prizes) {
+        const rect = prizes.getBoundingClientRect();
+      }
+    }
+
+    window.addEventListener("load", () => {
+      const gameCanvas = document.querySelector("canvas");
+      const prizeSection = document.getElementById("prizes");
+
+      logDebugSizes(1, 1);
+
+      if (gameCanvas && prizeSection) {
+      }
+    });
+
+  })();</script></html>

@@ -1,0 +1,67 @@
+{
+	"localization": {
+		"postGame_txtScoreTitle": {
+			"text": "SCORE",
+			"font": "digitalt_72",
+			"size": 60,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"leaderboard_title": {
+			"text": "LEADERBOARD",
+			"font": "digitalt_72",
+			"size": 60,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"leaderboard_rank": {
+			"text": "Rank",
+			"font": "jost_bold_72",
+			"size": 24,
+			"color": "0x000000",
+			"align": 1
+		},
+		"leaderboard_score": {
+			"text": "Score",
+			"font": "jost_bold_72",
+			"size": 24,
+			"color": "0x000000",
+			"align": 1
+		},
+		"leaderboard_name": {
+			"text": "Name",
+			"font": "jost_bold_72",
+			"size": 24,
+			"color": "0x000000",
+			"align": 1
+		},
+		"howtoplay_title": {
+			"text": "DO NOT SHOW AGAIN",
+			"font": "nunito_72",
+			"size": 28,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"pause":{
+			"text": "PAUSED",
+			"font": "digitalt_72",
+			"size": 60,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"quit":{
+			"text": "QUIT?",
+			"font": "digitalt_72",
+			"size": 60,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"quit_message":{
+			"text": "Do you want to go \n back to the Main Menu?\n \n Your current score will \n not be saved.",
+			"font": "nunito_72",
+			"size": 45,
+			"color": "0x000000",
+			"align": 1
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"items": {
+		"postgame_lose_0": {
+			"text": "Try your luck again next time.",
+			"font": "font_nunito_72",
+			"size": 50,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"postgame_lose_1": {
+			"text": "That's fine, give it one more try.",
+			"font": "font_nunito_72",
+			"size": 50,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"postgame_lose_2": {
+			"text": "It's okay, keep trying!",
+			"font": "font_nunito_72",
+			"size": 50,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"postgame_lose_3": {
+			"text": "Almost! Give it another shot.",
+			"font": "font_nunito_72",
+			"size": 50,
+			"color": "0xFFFFFF",
+			"align": 1
+		},
+		"postgame_lose_4": {
+			"text": "Let's try again!",
+			"font": "font_nunito_72",
+			"size": 50,
+			"color": "0xFFFFFF",
+			"align": 1
+		}
+	}
+}

@@ -1,0 +1,397 @@
+{
+	"textures": [
+		{
+			"image": "digi",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1264,
+				"h": 1471
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "digi_front_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 56,
+						"w": 410,
+						"h": 361
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 410,
+						"h": 361
+					}
+				},
+				{
+					"filename": "digi_front_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 56,
+						"w": 410,
+						"h": 361
+					},
+					"frame": {
+						"x": 3,
+						"y": 370,
+						"w": 410,
+						"h": 361
+					}
+				},
+				{
+					"filename": "digi_back_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 68,
+						"w": 410,
+						"h": 360
+					},
+					"frame": {
+						"x": 419,
+						"y": 3,
+						"w": 410,
+						"h": 360
+					}
+				},
+				{
+					"filename": "digi_back_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 68,
+						"w": 410,
+						"h": 360
+					},
+					"frame": {
+						"x": 419,
+						"y": 369,
+						"w": 410,
+						"h": 360
+					}
+				},
+				{
+					"filename": "digi_front_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 47,
+						"w": 410,
+						"h": 351
+					},
+					"frame": {
+						"x": 419,
+						"y": 735,
+						"w": 410,
+						"h": 351
+					}
+				},
+				{
+					"filename": "digi_back_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 59,
+						"w": 410,
+						"h": 350
+					},
+					"frame": {
+						"x": 3,
+						"y": 737,
+						"w": 410,
+						"h": 350
+					}
+				},
+				{
+					"filename": "digi_hit_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 350
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 408,
+						"h": 350
+					},
+					"frame": {
+						"x": 835,
+						"y": 3,
+						"w": 408,
+						"h": 350
+					}
+				},
+				{
+					"filename": "digi_hit_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 410,
+						"h": 350
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 403,
+						"h": 350
+					},
+					"frame": {
+						"x": 835,
+						"y": 359,
+						"w": 403,
+						"h": 350
+					}
+				},
+				{
+					"filename": "digi_right_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 136,
+						"y": 62,
+						"w": 215,
+						"h": 396
+					},
+					"frame": {
+						"x": 835,
+						"y": 715,
+						"w": 215,
+						"h": 396
+					}
+				},
+				{
+					"filename": "digi_right_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 136,
+						"y": 53,
+						"w": 216,
+						"h": 376
+					},
+					"frame": {
+						"x": 419,
+						"y": 1092,
+						"w": 216,
+						"h": 376
+					}
+				},
+				{
+					"filename": "digi_right_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 136,
+						"y": 62,
+						"w": 251,
+						"h": 320
+					},
+					"frame": {
+						"x": 3,
+						"y": 1093,
+						"w": 251,
+						"h": 320
+					}
+				},
+				{
+					"filename": "digi_left_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 130,
+						"y": 66,
+						"w": 213,
+						"h": 344
+					},
+					"frame": {
+						"x": 641,
+						"y": 1117,
+						"w": 213,
+						"h": 344
+					}
+				},
+				{
+					"filename": "digi_left_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 75,
+						"w": 224,
+						"h": 324
+					},
+					"frame": {
+						"x": 860,
+						"y": 1117,
+						"w": 224,
+						"h": 324
+					}
+				},
+				{
+					"filename": "digi_left_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 138,
+						"y": 75,
+						"w": 205,
+						"h": 326
+					},
+					"frame": {
+						"x": 1056,
+						"y": 715,
+						"w": 205,
+						"h": 326
+					}
+				},
+				{
+					"filename": "digi_back_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 59,
+						"w": 410,
+						"h": 350
+					},
+					"frame": {
+						"x": 3,
+						"y": 737,
+						"w": 410,
+						"h": 350
+					}
+				},
+				{
+					"filename": "digi_front_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 47,
+						"w": 410,
+						"h": 351
+					},
+					"frame": {
+						"x": 419,
+						"y": 735,
+						"w": 410,
+						"h": 351
+					}
+				},
+				{
+					"filename": "digi_left_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 130,
+						"y": 66,
+						"w": 213,
+						"h": 344
+					},
+					"frame": {
+						"x": 641,
+						"y": 1117,
+						"w": 213,
+						"h": 344
+					}
+				},
+				{
+					"filename": "digi_right_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 500,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 136,
+						"y": 53,
+						"w": 216,
+						"h": 376
+					},
+					"frame": {
+						"x": 419,
+						"y": 1092,
+						"w": 216,
+						"h": 376
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}
