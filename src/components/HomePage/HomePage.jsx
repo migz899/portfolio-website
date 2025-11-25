@@ -4,6 +4,9 @@ import { FaHome, FaUser, FaCode, FaFileAlt, FaBars, FaTimes, FaGithub, FaStar, F
 import './HomePage.scss';
 import { TypeWritterAnimationMultiple } from '../../utils/TypeWritterAnimationMultiple';
 
+import selfimg from '../../assets/photos/self_photo.webp'
+import selfimgbg from '../../assets/photos/self_photo_bg.webp'
+
 const HomePage = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -30,8 +33,8 @@ const HomePage = () => {
             </div>
 
             <div className='photo-section'>
-                <img className="photo-bg" src="../../src/assets/photos/self_photo_bg.webp" alt="self photo" width="800" height="700"></img>
-                <img src="../../src/assets/photos/self_photo.webp" alt="self photo" width="600" height="620"></img>
+                <img className="photo-bg" src={selfimgbg} alt="self photo" width="800" height="700"></img>
+                <img src={selfimg} alt="self photo" width="600" height="620"></img>
             </div>
 
 

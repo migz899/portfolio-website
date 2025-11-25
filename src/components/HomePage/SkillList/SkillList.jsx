@@ -2,6 +2,14 @@
 import { useState } from 'react'
 import styles from './SkillList.module.scss';
 
+import html5Icon from '../../../assets/photos/skills/html5.webp'
+import cssIcon from '../../../assets/photos/skills/css.webp'
+import jsIcon from '../../../assets/photos/skills/javascript.webp'
+import tsIcon from '../../../assets/photos/skills/typescript.webp'
+import nodeIcon from '../../../assets/photos/skills/nodejs.webp'
+import reactIcon from '../../../assets/photos/skills/react.webp'
+import gitIcon from '../../../assets/photos/skills/git.webp'
+
 const SkillList = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -13,13 +21,13 @@ const SkillList = () => {
             <nav className={styles.nav}>
                 {
                     <>
-                        <img src="../../src/assets/photos/skills/html5.webp" width={imageWidth} height={imageHeight}></img>
-                        <img src="../../src/assets/photos/skills/css.webp" width={imageWidth} height={imageHeight}></img>
-                        <img src="../../src/assets/photos/skills/javascript.webp" width={imageWidth} height={imageHeight}></img>
-                        <img src="../../src/assets/photos/skills/typescript.webp" width={imageWidth} height={imageHeight}></img>
-                        <img src="../../src/assets/photos/skills/nodejs.webp" width={imageWidth} height={imageHeight}></img>
-                        <img src="../../src/assets/photos/skills/react.webp" width={imageWidth} height={imageHeight}></img>
-                        <img src="../../src/assets/photos/skills/git.webp" width={imageWidth} height={imageHeight}></img>
+                        <img src={html5Icon} width={imageWidth} height={imageHeight} />
+                        <img src={cssIcon} width={imageWidth} height={imageHeight} />
+                        <img src={jsIcon} width={imageWidth} height={imageHeight} />
+                        <img src={tsIcon} width={imageWidth} height={imageHeight} />
+                        <img src={nodeIcon} width={imageWidth} height={imageHeight} />
+                        <img src={reactIcon} width={imageWidth} height={imageHeight} />
+                        <img src={gitIcon} width={imageWidth} height={imageHeight} />
                     </>}
                 {/* <a
           className="button"

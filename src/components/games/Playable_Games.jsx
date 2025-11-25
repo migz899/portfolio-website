@@ -2,9 +2,15 @@ import { useState } from 'react';
 import './Game_Card.scss';
 import Game_Card from './Game_Card';
 
-// Import projects data
+import valiantvolleythumb from '../../assets/projects/thumbnails/valiantvolley.webp'
+import mysteryboxthumb from '../../assets/projects/thumbnails/mysterybox.webp'
 import projectsData from '../../data/projects.json';
 
+
+const thumbnailMap = {
+    'valiantvolley.webp': valiantvolleythumb,
+    'mysterybox.webp': mysteryboxthumb,
+};
 
 function Playable_Games() {
     return (
@@ -22,7 +28,7 @@ function Playable_Games() {
                         p_source={build.source}
                         p_width={build.width}
                         p_height={build.height}
-                        p_thumbnail={build.thumbnail}
+                        p_thumbnail={thumbnailMap[build.thumbnail]}
                     />
                 ))}
 
