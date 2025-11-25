@@ -1,0 +1,397 @@
+{
+	"textures": [
+		{
+			"image": "ana",
+			"format": "RGBA8888",
+			"size": {
+				"w": 3134,
+				"h": 3117
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ana_back_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 187,
+						"w": 1049,
+						"h": 585
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 1049,
+						"h": 585
+					}
+				},
+				{
+					"filename": "ana_back_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 205,
+						"w": 1049,
+						"h": 609
+					},
+					"frame": {
+						"x": 2,
+						"y": 591,
+						"w": 1049,
+						"h": 609
+					}
+				},
+				{
+					"filename": "ana_back_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 205,
+						"w": 1049,
+						"h": 609
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2,
+						"w": 1049,
+						"h": 609
+					}
+				},
+				{
+					"filename": "ana_front_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 194,
+						"w": 1048,
+						"h": 613
+					},
+					"frame": {
+						"x": 2,
+						"y": 1204,
+						"w": 1048,
+						"h": 613
+					}
+				},
+				{
+					"filename": "ana_front_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 212,
+						"w": 1048,
+						"h": 637
+					},
+					"frame": {
+						"x": 1055,
+						"y": 615,
+						"w": 1048,
+						"h": 637
+					}
+				},
+				{
+					"filename": "ana_front_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 212,
+						"w": 1048,
+						"h": 637
+					},
+					"frame": {
+						"x": 2,
+						"y": 1821,
+						"w": 1048,
+						"h": 637
+					}
+				},
+				{
+					"filename": "enemy.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1050,
+						"h": 613
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 1048,
+						"h": 613
+					},
+					"frame": {
+						"x": 1054,
+						"y": 1256,
+						"w": 1048,
+						"h": 613
+					}
+				},
+				{
+					"filename": "enemyhit.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1026,
+						"h": 613
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 1024,
+						"h": 613
+					},
+					"frame": {
+						"x": 2108,
+						"y": 2,
+						"w": 1024,
+						"h": 613
+					}
+				},
+				{
+					"filename": "ana_right_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 343,
+						"y": 167,
+						"w": 450,
+						"h": 701
+					},
+					"frame": {
+						"x": 2106,
+						"y": 1256,
+						"w": 450,
+						"h": 701
+					}
+				},
+				{
+					"filename": "ana_right_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 343,
+						"y": 149,
+						"w": 561,
+						"h": 657
+					},
+					"frame": {
+						"x": 2560,
+						"y": 619,
+						"w": 561,
+						"h": 657
+					}
+				},
+				{
+					"filename": "ana_left_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 222,
+						"y": 149,
+						"w": 561,
+						"h": 655
+					},
+					"frame": {
+						"x": 2560,
+						"y": 1280,
+						"w": 561,
+						"h": 655
+					}
+				},
+				{
+					"filename": "ana_left_run_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 222,
+						"y": 149,
+						"w": 561,
+						"h": 653
+					},
+					"frame": {
+						"x": 2,
+						"y": 2462,
+						"w": 561,
+						"h": 653
+					}
+				},
+				{
+					"filename": "ana_right_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 343,
+						"y": 167,
+						"w": 519,
+						"h": 640
+					},
+					"frame": {
+						"x": 567,
+						"y": 2462,
+						"w": 519,
+						"h": 640
+					}
+				},
+				{
+					"filename": "ana_left_run_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 260,
+						"y": 167,
+						"w": 523,
+						"h": 633
+					},
+					"frame": {
+						"x": 2560,
+						"y": 1939,
+						"w": 523,
+						"h": 633
+					}
+				},
+				{
+					"filename": "ana_left_run_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 185,
+						"y": 167,
+						"w": 598,
+						"h": 615
+					},
+					"frame": {
+						"x": 1090,
+						"y": 1873,
+						"w": 598,
+						"h": 615
+					}
+				},
+				{
+					"filename": "ana_back_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 187,
+						"w": 1049,
+						"h": 585
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 1049,
+						"h": 585
+					}
+				},
+				{
+					"filename": "ana_front_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 194,
+						"w": 1048,
+						"h": 613
+					},
+					"frame": {
+						"x": 2,
+						"y": 1204,
+						"w": 1048,
+						"h": 613
+					}
+				},
+				{
+					"filename": "ana_right_run_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1160,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 343,
+						"y": 149,
+						"w": 561,
+						"h": 657
+					},
+					"frame": {
+						"x": 2560,
+						"y": 619,
+						"w": 561,
+						"h": 657
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "popup_icons",
+			"format": "RGBA8888",
+			"size": {
+				"w": 647,
+				"h": 271
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "img_gameover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 645,
+						"h": 179
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 643,
+						"h": 141
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 643,
+						"h": 141
+					}
+				},
+				{
+					"filename": "icon_medal.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 122
+					},
+					"frame": {
+						"x": 2,
+						"y": 147,
+						"w": 101,
+						"h": 122
+					}
+				},
+				{
+					"filename": "icon_leaderboard.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 111
+					},
+					"frame": {
+						"x": 107,
+						"y": 147,
+						"w": 101,
+						"h": 111
+					}
+				},
+				{
+					"filename": "img_notation_current.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 26
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 26
+					},
+					"frame": {
+						"x": 212,
+						"y": 147,
+						"w": 26,
+						"h": 26
+					}
+				},
+				{
+					"filename": "img_notation.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 25,
+						"h": 25
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 25
+					},
+					"frame": {
+						"x": 212,
+						"y": 177,
+						"w": 25,
+						"h": 25
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

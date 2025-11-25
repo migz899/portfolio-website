@@ -1,0 +1,103 @@
+{
+	"textures": [
+		{
+			"image": "StarToken2",
+			"format": "RGBA8888",
+			"size": {
+				"w": 256,
+				"h": 246
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "StarToken2_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 124,
+						"h": 119
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 124,
+						"h": 119
+					}
+				},
+				{
+					"filename": "StarToken2_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 124,
+						"h": 119
+					},
+					"frame": {
+						"x": 2,
+						"y": 125,
+						"w": 124,
+						"h": 119
+					}
+				},
+				{
+					"filename": "StarToken2_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 124,
+						"h": 119
+					},
+					"frame": {
+						"x": 130,
+						"y": 2,
+						"w": 124,
+						"h": 119
+					}
+				},
+				{
+					"filename": "StarToken2_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 4,
+						"w": 124,
+						"h": 119
+					},
+					"frame": {
+						"x": 130,
+						"y": 125,
+						"w": 124,
+						"h": 119
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

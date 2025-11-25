@@ -1,0 +1,25 @@
+{
+    "localization": {
+        "changeLocalize": {
+            "text": "To Filipino",
+            "font": "dejavu",
+            "size": 32,
+            "color": "0xFFFFFF",
+            "align": 1
+        },
+        "random": {
+            "text": "This is a text.",
+            "font": "dejavu",
+            "size": 32,
+            "color": "0x000000",
+            "align": 1
+        },
+		"postgame_lose_4": {
+			"text": "Let's try again!",
+			"font": "dejavu",
+			"size": 50,
+			"color": "0x000000",
+			"align": 2
+		}
+    }
+}

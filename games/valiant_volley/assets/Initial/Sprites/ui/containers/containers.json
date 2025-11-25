@@ -1,0 +1,208 @@
+{
+	"textures": [
+		{
+			"image": "containers",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1704,
+				"h": 1868
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ctn_leaderboard.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 826,
+						"h": 1176
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 826,
+						"h": 1176
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 826,
+						"h": 1176
+					}
+				},
+				{
+					"filename": "ctn_how_to_play.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 825,
+						"h": 1176
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 825,
+						"h": 1176
+					},
+					"frame": {
+						"x": 832,
+						"y": 2,
+						"w": 825,
+						"h": 1176
+					}
+				},
+				{
+					"filename": "ctn_popup_pause_large.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 870,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 870,
+						"h": 177
+					},
+					"frame": {
+						"x": 2,
+						"y": 1182,
+						"w": 870,
+						"h": 177
+					}
+				},
+				{
+					"filename": "ctn_popup_quit.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 851,
+						"h": 679
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 16,
+						"w": 826,
+						"h": 647
+					},
+					"frame": {
+						"x": 876,
+						"y": 1182,
+						"w": 826,
+						"h": 647
+					}
+				},
+				{
+					"filename": "ctn_popup_post.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 778,
+						"h": 322
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 778,
+						"h": 322
+					},
+					"frame": {
+						"x": 2,
+						"y": 1363,
+						"w": 778,
+						"h": 322
+					}
+				},
+				{
+					"filename": "ctn_popup_pause.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 427,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 427,
+						"h": 177
+					},
+					"frame": {
+						"x": 2,
+						"y": 1689,
+						"w": 427,
+						"h": 177
+					}
+				},
+				{
+					"filename": "ctn_score_center.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 142
+					},
+					"frame": {
+						"x": 433,
+						"y": 1689,
+						"w": 72,
+						"h": 142
+					}
+				},
+				{
+					"filename": "ctn_score_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 142
+					},
+					"frame": {
+						"x": 509,
+						"y": 1689,
+						"w": 72,
+						"h": 142
+					}
+				},
+				{
+					"filename": "ctn_score_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 142
+					},
+					"frame": {
+						"x": 585,
+						"y": 1689,
+						"w": 70,
+						"h": 142
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  background-image: url(assets/Boot/Sprites/css_liga_background.png);
+  background-size: auto;
+  background-repeat: repeat;
+  background-color: rgb(33, 33, 34);
+}

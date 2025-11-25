@@ -1,0 +1,103 @@
+{
+	"textures": [
+		{
+			"image": "Liga_Pickup",
+			"format": "RGBA8888",
+			"size": {
+				"w": 95,
+				"h": 380
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Liga_General_Graphic_PowerupPickup_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 91
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 91,
+						"h": 91
+					}
+				},
+				{
+					"filename": "Liga_General_Graphic_PowerupPickup_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 91
+					},
+					"frame": {
+						"x": 2,
+						"y": 97,
+						"w": 91,
+						"h": 91
+					}
+				},
+				{
+					"filename": "Liga_General_Graphic_PowerupPickup_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 91
+					},
+					"frame": {
+						"x": 2,
+						"y": 192,
+						"w": 91,
+						"h": 91
+					}
+				},
+				{
+					"filename": "Liga_General_Graphic_PowerupPickup_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 91,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 91,
+						"h": 91
+					},
+					"frame": {
+						"x": 2,
+						"y": 287,
+						"w": 91,
+						"h": 91
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

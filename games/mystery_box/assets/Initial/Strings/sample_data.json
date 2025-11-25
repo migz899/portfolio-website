@@ -1,0 +1,44 @@
+{
+    "rewards": [
+        {
+            "index": 1,
+            "id": "pts5",
+            "probability": 0.5,
+            "winners": 0,
+            "winnersPerDay": 10,
+            "description": "5 Limitless Points"
+        },
+        {
+            "index": 2,
+            "id": "pts10",
+            "probability": 0.2,
+            "winners": 0,
+            "winnersPerDay": 10,
+            "description": "10 Limitless Points"
+        },
+        {
+            "index": 3,
+            "id": "pts15",
+            "probability": 0.15,
+            "winners": 0,
+            "winnersPerDay": 3,
+            "description": "15 Limitless Points"
+        },
+        {
+            "index": 4,
+            "id": "pts25",
+            "probability": 0.1,
+            "winners": 0,
+            "winnersPerDay": 8,
+            "description": "25 Limitless Points"
+        },
+        {
+            "index": 5,
+            "id": "pts50",
+            "probability": 0.05,
+            "winners": 0,
+            "winnersPerDay": 5,
+            "description": "50 Limitless Points"
+        }
+    ]
+}
