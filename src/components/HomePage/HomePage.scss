@@ -1,18 +1,25 @@
 .homePage-container {
     background-color: #121e28;
-    /* Dark background for the header */
     padding: 20px 5rem;
-    /* Spacing around the header content */
     display: flex;
-    /* Vertically align items in the header */
     justify-content: space-between;
-    /* Space items evenly (logo on the left, nav on the right) */
     color: #dfdfdf;
     position: relative;
-    /* Set relative position for z-index control */
-    z-index: 1000;
-    /* Ensure the header stays on top of other elements */
+    z-index: 100;
     font-family: "Montserrat", sans-serif;
+    margin-top: 10rem;
+
+    @media (max-width: 1024px) {
+        padding: 0px 4rem;
+        height: 320px;
+    }
+
+    @media (max-width: 768px) {
+        display: revert;
+        margin-top: 8rem;
+        padding: 0 1rem;
+        margin-bottom: 10rem;
+    }
 }
 
 .introduction {
@@ -20,6 +27,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 20px 5rem;
+    margin-top: 100;
 
     h1 {
         font-size: 5.5rem;
@@ -39,6 +47,98 @@
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
     }
+
+    @media (max-width: 2250px) {
+        h1 {
+            font-size: 4.5rem;
+            padding: 2rem 1.4rem;
+            font-weight: 800;
+        }
+    }
+
+    @media (max-width: 1990px) {
+        padding: 20px 1rem;
+
+
+        h1 {
+            font-size: 4rem;
+            padding: 2rem 1.4rem;
+            font-weight: 800;
+        }
+
+        h2 {
+            font-size: 4rem;
+            margin: 2rem;
+        }
+
+        h3 {
+            font-size: 3.6rem;
+            margin: 0 4rem;
+        }
+    }
+
+    @media (max-width: 1750px) {
+        padding: 20px 0rem;
+
+        h1 {
+            font-size: 2rem;
+            padding: 2rem 1.4rem;
+            font-weight: 800;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin: 2rem;
+        }
+
+        h3 {
+            font-size: 2.6rem;
+            margin: 0 4rem;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        padding: 20px 0rem;
+
+        h1 {
+            font-size: 1.5rem;
+            padding: 2rem 1.4rem;
+            font-weight: 800;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 2rem;
+        }
+
+        h3 {
+            font-size: 2.1rem;
+            margin: 0 4rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -6rem;
+
+        h1 {
+            font-size: 1rem;
+            padding: 1rem 0rem;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 1rem;
+        }
+
+        h3 {
+            font-size: 2.1rem;
+            margin: 0 0rem;
+        }
+    }
 }
 
 .typewriter-container {
@@ -52,8 +152,96 @@
     width: 600px;
     height: 600px;
 
-    .photo-bg{
+    .photo-bg {
         left: -100px;
+    }
+
+    @media (max-width: 1990px) {
+        width: 600px;
+        height: 500px;
+
+        .photo-self {
+            width: 500px;
+            height: 520px;
+        }
+
+        .photo-bg {
+            width: 700px;
+            height: 600px;
+        }
+    }
+
+    @media (max-width: 1750px) {
+        width: 40%;
+        height: 0px;
+
+        .photo-self {
+            width: 400px;
+            height: 420px;
+        }
+
+        .photo-bg {
+            width: 500px;
+            height: 400px;
+            left: -37px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        width: 300px;
+        height: 100px;
+
+        .photo-self {
+            width: 300px;
+            height: 320px;
+        }
+
+        .photo-bg {
+            width: 400px;
+            height: 300px;
+            left: -37px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        //position: revert;
+        margin: 0px 25% 0px auto;
+
+        .photo-self {
+            width: 80%;
+            height: auto;
+            z-index: 2;
+        }
+
+        .photo-bg {
+            left: -50px;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+            opacity: 0.5;
+        }
+    }
+
+    @media (max-width: 500px) {
+        //position: revert;
+        margin: 0px 1px 0px auto;
+
+        .photo-self {
+            width: 80%;
+            height: auto;
+            //position: absolute;
+            z-index: 2;
+        }
+
+        .photo-bg {
+            //position: absolute;
+            top: 0;
+            left: -30px;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+            opacity: 0.5;
+        }
     }
 }
 

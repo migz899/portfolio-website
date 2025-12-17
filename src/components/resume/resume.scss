@@ -51,7 +51,8 @@
     border: none; /* Remove the iframe border */
 
     @media (max-width: 1200px) {
-      height: 60vh; /* Reduce iframe height on smaller screens */
+      height: 70vh; /* Reduce iframe height on smaller screens */
+      margin-top: 5rem;
     }
   }
 }
@@ -62,10 +63,15 @@
 }
 
 .section-title {
-  font-size: 5rem; /* Large font size for section titles */
-  margin-bottom: 4rem; /* Space below the section title */
-  position: relative; /* Position relative for future positioning */
+  font-size: 5rem; 
+  margin-bottom: 4rem; 
+  position: relative;
   margin-top: 7rem;
+
+  @media (max-width: 1024px) {
+  font-size: 3rem; 
+  margin-bottom: 2rem; 
+  }
 }
 
 .line-container {
@@ -98,19 +104,29 @@
 }
 
 .job-title {
-  font-size: 1.8em; /* Font size for job titles */
-  margin: 10px 0; /* Space above and below the job title */
-  position: relative; /* Relative positioning for future positioning */
+  font-size: 1.8em;
+  margin: 10px 0;
+  position: relative;
+
+  @media (max-width: 1024px) {
+  font-size: 1.4em; 
+  margin: 15px 0;
+  }
 }
 
 .company {
-  color: #e46262; /* Purple color for company names */
+  color: #e46262;
 }
 
 .job-dates {
-  font-size: 2em; /* Font size for job dates */
-  color: #d3d3d3; /* Light gray color for job dates */
-  margin: 5px 0 10px 0; /* Spacing around job dates */
+  font-size: 2em;
+  color: #d3d3d3;
+  margin: 5px 0 10px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 1.4em; 
+    margin: 5px 0 10px 0;
+  }
 }
 
 .bullet-point {

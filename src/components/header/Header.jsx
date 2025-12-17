@@ -56,12 +56,4 @@ const Header = () => {
   );
 };
 
-// Inline style object for links
-const linkStyle = {
-  color: "white",
-  textDecoration: "none",
-  fontWeight: "500",
-  transition: "color 2s",
-};
-
 export default Header;

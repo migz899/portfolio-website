@@ -14,7 +14,8 @@ const HomePage = () => {
         "Front-End Web Developer",
         "HTML5 Game Developer",
         "Experimental Developer",
-        "Drinks Coffee like Vitamins",
+        "Drinks Coffee A LOT",
+        "Cat Dad"
     ];
 
     const [text, setText] = useState("");
@@ -34,7 +35,7 @@ const HomePage = () => {
 
             <div className='photo-section'>
                 <img className="photo-bg" src={selfimgbg} alt="self photo" width="800" height="700"></img>
-                <img src={selfimg} alt="self photo" width="600" height="620"></img>
+                <img className="photo-self" src={selfimg} alt="self photo" width="600" height="620"></img>
             </div>
 
 

@@ -105,6 +105,10 @@
     font-size: 5rem;
     color: #d3d3d3;
     text-align: center;
+
+    @media (max-width: 1024px) {
+      font-size: 3.5rem;
+    }
   }
 
   .build-section {
@@ -114,5 +118,9 @@
     //background-color: #1f2c37;
     border-radius: 40px;
     padding: 4rem;
+
+    @media (max-width: 1024px) {
+      display: grid;
+    }
   }
 }

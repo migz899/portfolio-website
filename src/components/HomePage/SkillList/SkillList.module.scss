@@ -1,78 +1,126 @@
 .skillList-container {
-    background-color: #17232d; /* Dark background for the header */
-    padding: 20px 40px; /* Spacing around the header content */
-    display: flex;
-    align-items: center; /* Vertically align items in the header */
-    justify-content: space-between; /* Space items evenly (logo on the left, nav on the right) */
-    color: #fff; /* White text color */
-    position: relative; /* Set relative position for z-index control */
-    z-index: 1000; /* Ensure the header stays on top of other elements */
-  }
-  
-  .nav {
-    display: flex;
-    align-items: center; /* Vertically align navigation links */
-    width: 100%;
-    justify-content: space-evenly; /* distribute links equally across width */
+  background-color: #17232d;
+  /* Dark background for the header */
+  padding: 20px 40px;
+  /* Spacing around the header content */
+  display: flex;
+  align-items: center;
+  /* Vertically align items in the header */
+  justify-content: space-between;
+  /* Space items evenly (logo on the left, nav on the right) */
+  color: #fff;
+  /* White text color */
+  position: relative;
+  /* Set relative position for z-index control */
+  z-index: 1000;
+  /* Ensure the header stays on top of other elements */
 
-    /* Mobile: Show the nav as a full-screen menu when open */
-    @media (max-width: 768px) {
-      position: fixed; /* Fix the nav in place on small screens */
-      top: 0;
-      right: -100%; /* Initially hide the nav by moving it offscreen */
-      width: 100%; /* Full width for the mobile menu */
-      height: 100%; /* Full height for the mobile menu */
-      background-color: #1e1e1e; /* Same dark background */
-      flex-direction: column; /* Stack the nav items vertically */
-      justify-content: center; /* Center nav items vertically */
-      transition: right 0.3s ease-in-out; /* Smooth slide-in effect */
-      z-index: 999; /* Layer it above other content */
-    }
-  
-    &.open {
-      right: 0; /* Slide the nav into view when it's open */
-    }
-
-
+  @media (max-width: 1750px) {
+    padding: 20px 0px;
   }
 
-    .image{
-      mix-blend-mode: multiply;
-      background-color: red;
-      opacity: 0.7;
-    }
-  
-  .button {
-    display: flex;
-    align-items: center; /* Vertically align button content */
-    margin-left: 40px; /* Space between the button and nav links */
-    padding: 8px 16px; /* Padding inside the button */
-    border: 2px solid #9b59b6; /* Purple border around the button */
-    color: #9b59b6; /* Purple text */
-    text-decoration: none; /* Remove underline from the button text */
-    font-size: 18px; /* Set the button text size */
-    transition: all 0.3s; /* Smooth transition for background and text color */
-    border-radius: 5px; /* Rounded button corners */
-  
-    &:hover {
-      background-color: #9b59b6; /* Purple background on hover */
-      color: #fff; /* White text on hover */
-    }
-  
-    svg {
-      margin-right: 8px; /* Space between the icon and text */
-    }
-  
-    /* Mobile: Adjust button spacing and size */
-    @media (max-width: 768px) {
-      margin-left: 0;
-      margin-bottom: 20px; /* Add space between the button and other elements */
-      font-size: 24px; /* Increase button font size on mobile */
+  @media (max-width: 1024px) {
+    padding: 20px 0px;
+  }
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  /* Vertically align navigation links */
+  width: 100%;
+  justify-content: space-evenly;
+  /* distribute links equally across width */
+
+  @media (max-width: 1750px) {
+    .image-skill {
+      width: 120px;
+      height: 30px;
     }
   }
-  
-  .close-icon {
-    display: block; /* Show the close icon by default */
-    z-index: 1002; /* Ensure the close icon is above the nav */
+
+  @media (max-width: 1024px) {
+    .image-skill {
+      width: 85px;
+      height: 22px;
+    }
   }
-  
+
+  @media (max-width: 768px) {
+    .image-skill {
+      width: 45px;
+      height: 13px;
+    }
+  }
+
+  /* Mobile: Show the nav as a full-screen menu when open */
+  @media (max-width: 768px) {
+    //justify-content: center;
+  }
+
+
+
+  &.open {
+    right: 0;
+    /* Slide the nav into view when it's open */
+  }
+
+
+}
+
+.image {
+  mix-blend-mode: multiply;
+  background-color: red;
+  opacity: 0.7;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  /* Vertically align button content */
+  margin-left: 40px;
+  /* Space between the button and nav links */
+  padding: 8px 16px;
+  /* Padding inside the button */
+  border: 2px solid #9b59b6;
+  /* Purple border around the button */
+  color: #9b59b6;
+  /* Purple text */
+  text-decoration: none;
+  /* Remove underline from the button text */
+  font-size: 18px;
+  /* Set the button text size */
+  transition: all 0.3s;
+  /* Smooth transition for background and text color */
+  border-radius: 5px;
+  /* Rounded button corners */
+
+  &:hover {
+    background-color: #9b59b6;
+    /* Purple background on hover */
+    color: #fff;
+    /* White text on hover */
+  }
+
+  svg {
+    margin-right: 8px;
+    /* Space between the icon and text */
+  }
+
+  /* Mobile: Adjust button spacing and size */
+  @media (max-width: 768px) {
+    margin-left: 0;
+    margin-bottom: 20px;
+    /* Add space between the button and other elements */
+    font-size: 24px;
+    /* Increase button font size on mobile */
+  }
+}
+
+.close-icon {
+  display: block;
+  /* Show the close icon by default */
+  z-index: 1002;
+  /* Ensure the close icon is above the nav */
+}

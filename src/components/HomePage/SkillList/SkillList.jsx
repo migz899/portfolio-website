@@ -21,13 +21,13 @@ const SkillList = () => {
             <nav className={styles.nav}>
                 {
                     <>
-                        <img src={html5Icon} width={imageWidth} height={imageHeight} />
-                        <img src={cssIcon} width={imageWidth} height={imageHeight} />
-                        <img src={jsIcon} width={imageWidth} height={imageHeight} />
-                        <img src={tsIcon} width={imageWidth} height={imageHeight} />
-                        <img src={nodeIcon} width={imageWidth} height={imageHeight} />
-                        <img src={reactIcon} width={imageWidth} height={imageHeight} />
-                        <img src={gitIcon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={html5Icon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={cssIcon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={jsIcon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={tsIcon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={nodeIcon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={reactIcon} width={imageWidth} height={imageHeight} />
+                        <img className={styles["image-skill"]} src={gitIcon} width={imageWidth} height={imageHeight} />
                     </>}
                 {/* <a
           className="button"

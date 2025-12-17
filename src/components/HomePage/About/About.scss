@@ -18,6 +18,17 @@
     text-align: center;
   }
 
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 3rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 1rem;
+  }
+
+
   .about-text {
     flex: 1;
     text-align: left;
@@ -26,12 +37,6 @@
     background-color: #1f2c37;
     font-family: 'Montserrat', sans-serif;
     border-radius: 20px;
-
-    /* Center text on mobile */
-    @media (max-width: 768px) {
-      text-align: center;
-      padding-right: 0;
-    }
 
     h2 {
       font-size: 5em;
@@ -59,6 +64,35 @@
       }
     }
 
+    @media (max-width: 1024px) {
+      padding: 1rem 2rem;
+      margin: 0 0rem;
+
+      h2 {
+        font-size: 3em;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+    }
+
+    /* Center text on mobile */
+    @media (max-width: 768px) {
+      text-align: center;
+      padding: 1rem 2rem;
+
+      h2 {
+        font-size: 2em;
+        text-align: center;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+
   }
 
   .about-photo {
@@ -70,15 +104,25 @@
     margin-right: 10rem;
 
     img {
-      width: 100%;
+      width: 70%;
       height: auto;
       border-radius: 10px;
       opacity: 0.8;
     }
 
-    /* Ensure the photo is centered horizontally and vertically on mobile */
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       width: 70%;
+      padding-left: 0;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 6rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 768px) {
+      width: 90%;
       padding-left: 0;
       margin-top: 20px;
       margin-left: auto;
@@ -86,6 +130,8 @@
       justify-content: center;
       align-items: center;
     }
+
+
   }
 
 

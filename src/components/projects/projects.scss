@@ -10,12 +10,20 @@
   margin: 10rem auto;
   //background-color: #1f2c37;
 
+  @media (max-width: 1024px) {
+    padding: 2rem 4rem;
+  }
+
   .project-div-container {
     background-color: #cb4141;
     width: fit-content;
     margin: 0 auto 5rem;
     padding: 2rem 4rem;
     border-radius: 20px;
+
+    @media (max-width: 1024px) {
+      padding: 1rem 2rem;
+    }
   }
 
   .section-title {
@@ -25,6 +33,10 @@
     width: 100%;
     box-sizing: border-box;
     color: #dedede;
+
+    @media (max-width: 1024px) {
+      font-size: 4rem;
+    }
   }
 
   // Search and controls section
